@@ -1,0 +1,134 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "/Users/liangyangjunwei/Desktop/liftttttt/frontend/src/styles.css": {
+    "file": "assets/styles-NiO-KzHT.css",
+    "src": "/Users/liangyangjunwei/Desktop/liftttttt/frontend/src/styles.css"
+  },
+  "_worker-entry-BSlPfDMP.js": {
+    "file": "assets/worker-entry-BSlPfDMP.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts": {
+    "file": "assets/start-HYkvq4Ni.js",
+    "name": "start",
+    "src": "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+    "isDynamicEntry": true
+  },
+  "src/assets/coffee-aeropress.jpg": {
+    "file": "assets/coffee-aeropress-Bh9JQ7xv.jpg",
+    "src": "src/assets/coffee-aeropress.jpg"
+  },
+  "src/assets/coffee-americano.jpg": {
+    "file": "assets/coffee-americano-CjVeXCwW.jpg",
+    "src": "src/assets/coffee-americano.jpg"
+  },
+  "src/assets/coffee-bg.jpg": {
+    "file": "assets/coffee-bg-D05hrTx0.jpg",
+    "src": "src/assets/coffee-bg.jpg"
+  },
+  "src/assets/coffee-cappuccino.jpg": {
+    "file": "assets/coffee-cappuccino--SlMfayN.jpg",
+    "src": "src/assets/coffee-cappuccino.jpg"
+  },
+  "src/assets/coffee-cortado.jpg": {
+    "file": "assets/coffee-cortado-D9m4dNc7.jpg",
+    "src": "src/assets/coffee-cortado.jpg"
+  },
+  "src/assets/coffee-dirty.jpg": {
+    "file": "assets/coffee-dirty-CbNbNVCK.jpg",
+    "src": "src/assets/coffee-dirty.jpg"
+  },
+  "src/assets/coffee-espresso-shot.jpg": {
+    "file": "assets/coffee-espresso-shot-DdwtpNkS.jpg",
+    "src": "src/assets/coffee-espresso-shot.jpg"
+  },
+  "src/assets/coffee-flat-white.jpg": {
+    "file": "assets/coffee-flat-white-Bd5Mj_p5.jpg",
+    "src": "src/assets/coffee-flat-white.jpg"
+  },
+  "src/assets/coffee-frappuccino.jpg": {
+    "file": "assets/coffee-frappuccino-CtHlJzUJ.jpg",
+    "src": "src/assets/coffee-frappuccino.jpg"
+  },
+  "src/assets/coffee-iced-latte.jpg": {
+    "file": "assets/coffee-iced-latte-88g_RZCG.jpg",
+    "src": "src/assets/coffee-iced-latte.jpg"
+  },
+  "src/assets/coffee-latte-art.jpg": {
+    "file": "assets/coffee-latte-art-BNBMN81j.jpg",
+    "src": "src/assets/coffee-latte-art.jpg"
+  },
+  "src/assets/coffee-mocha.jpg": {
+    "file": "assets/coffee-mocha-BE5kEmkS.jpg",
+    "src": "src/assets/coffee-mocha.jpg"
+  },
+  "src/assets/coffee-pourover.jpg": {
+    "file": "assets/coffee-pourover--5thPKYY.jpg",
+    "src": "src/assets/coffee-pourover.jpg"
+  },
+  "src/router.tsx": {
+    "file": "assets/router-BjxdwJzq.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BSlPfDMP.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-NiO-KzHT.css"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-BZGCBA7s.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BSlPfDMP.js"
+    ],
+    "assets": [
+      "assets/coffee-bg-D05hrTx0.jpg",
+      "assets/coffee-iced-latte-88g_RZCG.jpg",
+      "assets/coffee-pourover--5thPKYY.jpg",
+      "assets/coffee-latte-art-BNBMN81j.jpg",
+      "assets/coffee-dirty-CbNbNVCK.jpg",
+      "assets/coffee-frappuccino-CtHlJzUJ.jpg",
+      "assets/coffee-espresso-shot-DdwtpNkS.jpg",
+      "assets/coffee-flat-white-Bd5Mj_p5.jpg",
+      "assets/coffee-cappuccino--SlMfayN.jpg",
+      "assets/coffee-americano-CjVeXCwW.jpg",
+      "assets/coffee-mocha-BE5kEmkS.jpg",
+      "assets/coffee-cortado-D9m4dNc7.jpg",
+      "assets/coffee-aeropress-Bh9JQ7xv.jpg"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-kCLiGuwi.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-BSlPfDMP.js"
+    ]
+  }
+}
