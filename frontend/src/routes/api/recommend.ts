@@ -185,9 +185,11 @@ export const Route = createFileRoute("/api/recommend")({
       POST: async ({ request }) => {
         const apiKey = process.env.GEMINI_API_KEY;
         const model = process.env.GEMINI_MODEL || "gemini-flash-lite-latest";
+        const baseUrl = (process.env.GEMINI_BASE_URL || "https://generativelanguage.googleapis.com").replace(/\/+$/, "");
+        const apiRoot = baseUrl.endsWith("/v1beta") ? baseUrl : `${baseUrl}/v1beta`;
         const endpoint =
           process.env.GEMINI_ENDPOINT ||
-          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
+          `${apiRoot}/models/${model}:generateContent`;
 
         if (!apiKey) {
           return json({ error: "Missing GEMINI_API_KEY in Worker secrets." }, 500);
